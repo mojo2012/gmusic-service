@@ -1,8 +1,7 @@
 from flask import Flask
 from flask_restful import Api, Resource, Resource
-#from . import webapp
-from .rest.library import Library
-from .rest.authentication import Authentication
+from spotnext.gmusicservice.rest.library import Library
+from spotnext.gmusicservice.rest.authentication import Authentication
 
 print('Starting gmusic-service')
 
